@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin: 40px;
+    margin-bottom: 20px;
+}
+
+.about, .rest {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro h1 {
+    background-color: rgb(221, 109, 69);
+    padding: 40px;
+    border-radius: 10px;
+    font-size: xxx-large;
+}
+
+.img {
+    margin: 50px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.desc .card {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #6cb05e;
+    padding: 10px;
+}
+
+.desc .card p {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.find {
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.uolist {
+    display: flex;
+    gap: 10px;
+    margin: 50px;
+}
+
+.uolist .content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #5d9e71;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.rest .img {
+    order: 2;
+}
+
+.rest .cards {
+    flex: 1;
+}

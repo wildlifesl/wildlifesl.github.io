@@ -1,0 +1,139 @@
+section {
+  padding: 20px;
+}  
+
+.hero {
+  position: relative;
+  height: 83dvh;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+  font-size: xxx-large;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: large;
+  color: #fff;
+  padding: 20px;
+}
+
+.introduction {
+  text-align: center;
+  display: flex;
+}
+
+.introduction .content {
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #b07d5e;
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+.subsection {
+  display: flex;
+  justify-content: center;
+}
+
+.subsection.zig-zag {
+  display: flex;
+  justify-content: center;
+}
+
+.subsection img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+
+.subsection .content {
+  width: 50%;
+  padding: 5%;
+  background-color: #5d9e71;
+  border-radius: 10px;
+  font-size: larger;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.uolist {
+  display: flex;
+  gap: 10px;
+}
+
+.uolist .content {
+  height: 80%;
+  padding: 40px;
+  background-color: #b07d5e;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+@media (max-width: 960px) {
+
+  .hero {
+    height: 100dvh;
+  }
+
+  .hero-content {
+    top: 20;
+  }
+ 
+  .uolist, .subsection, .subsection.zig-zag, .introduction {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .uolist .content, .subsection .content, .subsection img, .introduction .content, .hero img {
+    font-size: large;
+    border-radius: 0px;
+  }
+
+  .introduction .content {
+    padding: 5%;
+  }
+
+  section {
+    padding: 0px;
+  }
+
+  .subsection img, .subsection .content {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .subsection .content {
+    order: 2;
+  }
+
+  .subsection img {
+    order: 1;
+  }
+
+}

@@ -1,0 +1,219 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;  
+}  
+
+section {
+  margin-bottom: 20px;
+  padding: 20px; 
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h1 {
+  background-color: rgb(221, 109, 69);
+  padding: 40px;
+  border-radius: 10px;
+  font-size: xxx-large;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  padding: 50px;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.wild {
+  text-align: center;
+}
+
+.wild h2, .animal h2 {
+  background-color: coral;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+
+.wild h1 {
+  font-size: xxx-large;
+}
+
+.card {  
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  background-color: #5d9e71;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card h4 {
+  font-size: xx-large;
+}
+
+.card p {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: bold;
+  font-size: large;
+}
+
+iframe {
+  width: 80%;
+  height: 250px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.animal h3 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+
+table {
+  --border: 5px solid black;
+  border-radius: 30px;
+  border-spacing: 0;
+  border-collapse: separate;
+  border: var(--border);
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+table a {
+  padding: 5px;
+  background-color: brown;
+  border-radius: 10px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: var(--border);
+}
+
+table > thead > tr:not(:last-child) > th,
+table > thead > tr:not(:last-child) > td,
+table > tbody > tr:not(:last-child) > th,
+table > tbody > tr:not(:last-child) > td,
+table > tfoot > tr:not(:last-child) > th,
+table > tfoot > tr:not(:last-child) > td,
+table > tr:not(:last-child) > th,
+table > tr:not(:last-child) > td {
+  border-bottom: var(--border);
+}
+
+table th,
+table td {
+  box-shadow: var(--border) 0px 0px 0px 1px inset;
+  padding: 20px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(194, 109, 56);
+  font-weight: bold;
+  font-size: x-large;
+  height: 75px;
+}
+
+td {
+  text-align: left;
+  width: auto;
+  font-weight: bold;
+  font-size: large;
+  background-color: #5d9e71;
+}
+
+tfoot td {
+  font-style: italic;
+}
+
+table img {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.animal {
+  text-align: center;
+}
+
+
+@media (max-width: 1342px) {
+  table {
+    width: 99%;
+    
+  }
+  table img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+}
+
+@media (max-width: 800px) {
+
+  section {
+    padding: 0%;
+  }
+
+  main {
+    padding: 0%;
+  }
+
+  .intro h1, .wild h2, .animal h2 {
+    border-radius: 0;
+  }
+
+  h3 {
+    padding: 15px;
+  }
+
+  .places {
+    justify-content: space-between; 
+    padding: 0;
+    gap: 0;
+  }
+
+  .card img {
+    width: 90%;
+    height: auto;
+  }
+
+  .card p {
+    padding: 15px;
+  }
+
+}

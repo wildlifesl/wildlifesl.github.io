@@ -1,0 +1,198 @@
+section {
+    padding: 20px;
+}
+
+.about {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    background-color: rgb(221, 109, 69);
+    padding: 40px;
+    border-radius: 10px;
+    font-size: xxx-large;
+}
+
+.intro h3 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.find h2, .threats h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(221, 109, 69);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.find h3 {
+    padding: 20px;
+}
+
+.places {
+    display: flex;
+    justify-content: space-between; 
+    padding: 50px;
+    gap: 10px;
+}
+
+.places .card {
+    width: 30%;
+    background-color: #b07d5e;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.places .card p {
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.places a {
+    width: 50%;
+    background-color: rgb(179, 96, 45);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    align-self: center;
+    font-weight: bold;
+}
+
+.threats {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.threats .card {
+    display: flex;
+    background-color: rgb(187, 104, 27);
+    border-radius: 10px;
+    font-size: x-large;
+    padding: 40px;
+}
+
+.threats .card img {
+    border-radius: 10px;
+    height: 500px;
+}
+
+.threats .card ul {
+    width: 50%;
+}
+
+.threats .card ul li {
+    padding: 15px;
+}
+
+.desc {
+    font-size: large;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.conserve {
+    display: flex;
+    gap: 20px;
+}
+
+.opcard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #5d9e71;
+    border-radius: 10px;
+    padding: 40px;
+    width: 50%;
+    font-size: x-large;
+}
+
+.opcard p {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.opcard a {
+    width: 50%;
+    background-color: rgb(179, 45, 45);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    align-self: center;
+    font-weight: bold;
+}
+
+@media (max-width: 1100px) {
+    
+    .intro h1 {
+        padding: 0;
+        border-radius: 0;
+    }    
+
+    section {
+        padding: 0;
+    }
+
+    .about {
+        padding-top: 1px;
+    }
+
+    .intro h2, .intro h3 {
+        padding: 10px;
+    }
+
+    .places {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .places .card {
+        width: 75%;
+    }
+
+    .threats .card {
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 40px;
+    }
+
+    .threats .card img {
+        width: 100%;
+        height: auto;
+    }
+    .threats .card ul {
+        width: 90%;
+    }
+    .threats h4 {
+        padding: 0;
+        text-align: left;
+    }
+    .conserve {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .conserve .opcard {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    
+
+}

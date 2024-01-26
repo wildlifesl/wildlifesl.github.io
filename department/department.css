@@ -1,0 +1,219 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;  
+}  
+
+section {
+  margin-bottom: 20px;
+  padding: 20px; 
+}
+
+.hero {
+  margin-top: 20px;
+  display: flex;
+  height: 79dvh;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.hero h1 {
+  background-color: rgb(221, 109, 69);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: xxx-large;
+}
+
+.hero h2 {
+  font-size: x-large;
+}
+
+.hero img {
+  height: 400px;
+  align-self: center;
+  padding: 20px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  background-color: #5d9e71;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.introduction h1 {
+  align-self: center;
+  padding-top: 2%;
+}
+
+.introduction p {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: bold;
+}
+
+.introduction ul {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+  font-weight: bold;
+}
+
+.introduction ul li {
+  padding: 0.6%;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 10px;
+  height: 450px;
+  border-style: none;
+}
+
+.desc {
+  padding: 40px;
+}
+
+.gallery {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  padding: 50px;
+}
+
+.gallery p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.protected-areas {
+  text-align: center;
+}
+
+.protected-areas h2 {
+  background-color: coral;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.protected-areas h1 {
+  font-size: xxx-large;
+}-top
+
+.contact h1{
+  align-self: center;
+  padding: 40px;
+  font-size: xxx-large;
+}
+
+.contact {
+  background-color: #b07d5e;
+  border-radius: 10px;
+}
+
+.card {  
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details {
+  width: 40%;
+  font-size: larger;
+}
+
+.details a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 800px) {
+
+  nav ul {
+    flex-direction: column;
+  }
+  
+  .gallery {
+    flex-direction: column;
+    align-items: center;  
+  }
+  
+  .card {
+    width: 100%; 
+  }
+  
+  .details {
+    width: 100%;
+  }
+
+  .hero h1 {
+    border-radius: 0;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .hero {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  section {
+    padding: 0px;
+  }
+
+  .hero img {
+    padding-top: 0px
+  }
+  
+  .introduction {
+    padding: 10px;
+  }
+
+  .introduction h1 {
+    text-align: center;
+  }
+
+  .introduction p {
+    text-align: center;
+  }
+
+  .introduction ul {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .desc {
+    padding: 10px;
+  }
+
+  .gallery {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact {
+    padding: 10px;
+  }
+}
