@@ -1,0 +1,52 @@
+{
+    "intro": {
+        "title": "Wilpattu National Park",
+        "subtitle": "Whispers of Wilderness: Beyond the Leopards",
+        "description": "Beyond the golden plains of Sri Lanka lies a land painted in emerald and ochre, where the air echoes with the trumpeting of giants and the whispers of ancient secrets. Wilpattu, a tapestry woven from sun-drenched grasslands, shimmering villus lakes, and whispering forests, promises an unforgettable safari adventure into the heart of Sri Lanka's wilderness. "
+    },
+    "about": {
+        "title": "About",
+        "image": "./wilpattu/images/leopard.jpg",
+        "cards": {
+            "box1": {
+                "title": "History and Significance",
+                "description": "Delve into Wilpattu's ancient legacy as a hunting ground for kings, its resilience after facing challenges, and its current status as a vital refuge for Sri Lankan wildlife"
+            },
+            "box2": {
+                "title": "Landscapes and Ecosystems",
+                "description": "Paint a vivid picture of Wilpattu's distinctive terrain, characterized by sprawling plains dotted with villus, rocky outcrops, and pockets of dense vegetation that create a mosaic of habitats"
+            },
+            "box3": {
+                "title": "Biodiversity Highlights",
+                "description": "Showcase Wilpattu's remarkable biodiversity, with over 300 species of plants, 31 mammals (including leopards, elephants, sloth bears, and deer), 150 bird species, and diverse reptiles and amphibians."
+            }
+        }
+    },
+    "encounters": {
+        "title": "Wildlife Encounters",
+        "image": "./wilpattu/images/ele.png",
+        "cards": {
+            "box1": {
+                "title": "Leopards in the Spotlight",
+                "description": "Emphasize Wilpattu's reputation as a haven for leopards, offering excellent opportunities to witness these elusive predators in their natural habitat."
+            },
+            "box2": {
+                "title": "Giants Among the Plains",
+                "description": "Highlight the awe-inspiring presence of elephants, often spotted roaming the grasslands or gathering around the villus."
+            },
+            "box3": {
+                "title": "Avian Abundance",
+                "description": "Celebrate the park's rich birdlife, including vibrant peacocks, majestic eagles, colorful kingfishers, and numerous water birds that flock to the villus"
+            }
+        }
+    },
+    "why": {
+        "title": "Why Choose Sri Lanka for Wildlife?",
+        "list": {
+            "list1": "Unparalleled Biodiversity: Encounter a staggering variety of animals, from majestic elephants and elusive leopards to vibrant birds and fascinating reptiles.",
+            "list2": "Authentic Experiences: Immerse yourself in the natural world through jeep safaris, boat trips, guided walks, and local community interactions.",
+            "list3": "Year-Round Destination: Enjoy wildlife encounters throughout the year, with different regions offering unique experiences based on season.",
+            "list4": "Sustainable Tourism: Support responsible tourism practices that benefit both wildlife and local communities."
+        }
+    }
+}

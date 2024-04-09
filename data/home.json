@@ -1,0 +1,41 @@
+{
+    "hero": {
+      "title": "Discover the Enchanting World of Wildlife in Sri Lanka",
+      "description": "From majestic elephants to elusive leopards, embark on a journey through a land teeming with natural wonders.",
+      "image": "./home/hero-image.jpg"
+    },
+    "introduction": {
+      "title": "A Land of Unparalleled Biodiversity",
+      "description": "Sri Lanka, a tropical island nation, boasts an incredible diversity of wildlife, housing over 3,200 species in diverse habitats. Explore lush rainforests echoing with monkey calls, arid scrublands roamed by leopards, and vibrant coral reefs teeming with marine life. This island paradise is a haven for nature enthusiasts, photographers, and anyone seeking an unforgettable wildlife encounter."
+    },
+    "zigZagSection": {
+      "title": "Rich Biodiversity",
+      "description": "Sri Lanka, a tropical island nation, boasts an incredible diversity of wildlife, housing over 3,200 species in diverse habitats. Explore lush rainforests echoing with monkey calls, arid scrublands roamed by leopards, and vibrant coral reefs teeming with marine life. This island paradise is a haven for nature enthusiasts, photographers, and anyone seeking an unforgettable wildlife encounter.",
+      "image": "./home/birds.jpg"
+    },
+    "sectionWithImage": {
+      "title": "Iconic Encounters",
+      "description": "Come face-to-face with Sri Lanka's iconic species. Witness the gentle giants, Asian elephants, bathing in rivers or grazing in national parks. Seek out the elusive Sri Lankan leopard, a breathtakingly beautiful and powerful predator. Observe monkeys swinging through the trees, colorful peacocks strutting their feathers, and graceful blue whales breaching the ocean surface.",
+      "image": "./home/elephant.jpg"
+    },
+    "zigZagSectionWithImage": {
+      "title": "Adventures Await",
+      "description": "Immerse yourself in the natural wonders of Sri Lanka through various exciting activities. Embark on a jeep safari through Yala National Park, famous for its high leopard density. Experience the thrill of whale watching off the coast of Mirissa, where blue whales and dolphins grace the turquoise waters. Go birdwatching in Sinharaja Forest Reserve, a UNESCO World Heritage Site teeming with endemic bird species.",
+      "image": "./home/safari.jpg"
+    },
+    "uolist": {
+      "box1": {
+        "title": "Did You Know?",
+        "list1": "Sri Lanka is home to the world's highest concentration of leopards outside of Africa.",
+        "list2": "Over 25% of the country's land is protected as national parks and reserves, offering diverse wildlife habitats.",
+        "list3": "Sri Lanka boasts the highest recorded bird species diversity in Asia, with over 430 species, including 27 endemic species."
+      },
+      "box2": {
+        "title": "Why Choose Sri Lanka for Wildlife?",
+        "list1": "Unparalleled Biodiversity: Encounter a staggering variety of animals, from majestic elephants and elusive leopards to vibrant birds and fascinating reptiles.",
+        "list2": "Authentic Experiences: Immerse yourself in the natural world through jeep safaris, boat trips, guided walks, and local community interactions.",
+        "list3": "Year-Round Destination: Enjoy wildlife encounters throughout the year, with different regions offering unique experiences based on season.",
+        "list4": "Sustainable Tourism: Support responsible tourism practices that benefit both wildlife and local communities."
+      }
+    }
+  }

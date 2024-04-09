@@ -2,13 +2,31 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Wildlife Sri Lanka</title>
-  <link rel="stylesheet" href="./leopard/leopard.css">
-  <link rel="stylesheet" href="./global/global.css">
-
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Sri Lanka</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+      document.addEventListener('alpine:init', () => {
+        Alpine.store('data', {
+          leopard: {}
+        });
+  
+        function fetchData() {
+          fetch('./data/leopard.json')
+            .then(response => response.json())
+            .then(data => {
+              Alpine.store('data').leopard = data;
+              localStorage.setItem('data', JSON.stringify(Alpine.store('data')));
+              Alpine.start();
+            });
+        }
+        fetchData()
+      });
+    </script>
+    <link rel="stylesheet" href="./leopard/leopard.css">
+    <link rel="stylesheet" href="./global/global.css">
+  </head>
 
 <body> 
 
@@ -50,118 +68,84 @@
 
 </header>
 
+<div x-data="{ pageData: JSON.parse(localStorage.getItem('data')) }">
 <main>
 
     <section class="about">
         <div class="intro">
-            <h1>The Magnificent Sri Lanka Leopard</h1>
-            <h2>An Apex Jewel Facing Challenges</h2>
-            <h3>The Sri Lanka Leopard, with its breathtaking rosette patterns and elusive grace, reigns as the island's apex predator. 
-                These magnificent big cats roam diverse landscapes, from lush rainforests to dry thorn scrublands. 
-                However, this iconic species faces several threats, requiring dedicated conservation efforts to ensure its future.
-            </h3>
+            <h1 x-text="pageData.leopard.about.intro.title"></h1>
+            <h2 x-text="pageData.leopard.about.intro.subtitle"></h2>
+            <h3 x-text="pageData.leopard.about.intro.description"></h3>
         </div>  
         
         <div class="find">
-            <h2>Finding the Sri Lanka Leopard</h2>
-            <h3>
-                These elusive creatures are often difficult to spot in the wild, but some locations offer higher chances of observing these majestic animals
-            </h3>
+            <h2 x-text="pageData.leopard.about.find.title"></h2>
+            <h3 x-text="pageData.leopard.about.intro.description"></h3>
         </div> 
 
         <div class="places">
             <div class="card">
-                <h1>Yala National Park</h1>
-                <p> Considered the leopard capital of Sri Lanka, Yala boasts the highest density of these big cats. 
-                    Safaris through its diverse landscapes offer thrilling encounters with leopards, elephants, and a multitude of other animals.
-                </p>
-                <a href="yala.html">Learn More</a>
+                <h1 x-text="pageData.leopard.about.places.box1.name"></h1>
+                <p x-text="pageData.leopard.about.places.box1.description"></p>
+                <a :href="pageData.leopard.about.places.box1.link">Learn More</a>
             </div>
 
             <div class="card">
-                <h1>Sinharaja Forest Reserve</h1>
-                <p> This verdant rainforest provides a different perspective on leopard habitats. 
-                    Here, leopards navigate the dense canopy and hunt amongst the rich biodiversity of the rainforest.
-                </p>
-                <a href="sinharaja.html">Learn More</a>
+                <h1 x-text="pageData.leopard.about.places.box2.name"></h1>
+                <p x-text="pageData.leopard.about.places.box2.description"></p>
+                <a :href="pageData.leopard.about.places.box2.link">Learn More</a>
             </div>
 
             <div class="card">
-                <h1>Wilpattu National Park</h1>
-                <p> This dry-zone park provides another excellent opportunity to track leopards. 
-                    Its vast plains and scattered rocky outcrops create prime hunting grounds for these opportunistic predators. 
-                </p>
-                <a href="wilpattu.html">Learn More</a>
+                <h1 x-text="pageData.leopard.about.places.box3.name"></h1>
+                <p x-text="pageData.leopard.about.places.box3.description"></p>
+                <a :href="pageData.leopard.about.places.box3.link">Learn More</a>
             </div>
         </div>  
     </section>
     <section class="threats">  
-        <h1>Threats that Sri Lanka Leopard face</h1>   
+        <h1 x-text="pageData.leopard.threats.title"></h1>   
             <div class="card">
                 <ul>
-                    <h4>Habitat Loss and Fragmentation</h4>
-                    <li>
-                        Threat: Encroachment on leopard habitats for agriculture, infrastructure development, 
-                        and human settlements leads to reduced prey availability and fragmented populations.
-                    </li>
-                    <li>
-                        Consequences: This can limit breeding opportunities, increase human-animal conflict, 
-                        and decrease overall leopard numbers.
-                    </li>
-                    <li>
-                        Mechanisms: Protected areas like national parks and reserves play a crucial role in safeguarding leopard habitats. 
-                        Additionally, reforestation efforts and wildlife corridors can help connect fragmented populations.
-                    </li>
+                    <h4 x-text="pageData.leopard.threats.desc.box1.name"></h4>
+                    <li x-text="pageData.leopard.threats.desc.box1.list1"></li>
+                    <li x-text="pageData.leopard.threats.desc.box1.list2"></li>
+                    <li x-text="pageData.leopard.threats.desc.box1.list3"></li>
                 </ul>
-                <img src="./leopard/images/deforest.jpg">
+                <img :src="pageData.leopard.threats.desc.box1.image">
             </div>
 
             <div class="card">
-                
                 <ul>
-                    <h4>Human-Leopard Conflict</h4>
-                    <li>
-                        Threat: Instances of leopards preying on livestock or entering villages due to habitat loss can 
-                        lead to retaliatory measures like poisoning or trapping.
-                    </li>
-                    <li>
-                        Consequences: This can cause unnecessary deaths of leopards and damage their populations.
-                    </li>
-                    <li>
-                        Mechanisms: Educational programs for communities living near leopard habitats can promote coexistence and reduce conflict. 
-                        Additionally, effective livestock management practices can minimize interactions between leopards and humans.
-                    </li>
+                    <h4 x-text="pageData.leopard.threats.desc.box2.name"></h4>
+                    <li x-text="pageData.leopard.threats.desc.box2.list1"></li>
+                    <li x-text="pageData.leopard.threats.desc.box2.list2"></li>
+                    <li x-text="pageData.leopard.threats.desc.box2.list3"></li>
                 </ul>
-                <img src="./leopard/images/conflict.jpg">
-            </div>    
+                <img :src="pageData.leopard.threats.desc.box2.image">
+            </div>   
     </section>
 
     <div class="desc">
-        <h1>Supporting Leopard Conservation</h1>
-        <p>To ensure the future of these magnificent creatures, supporting dedicated conservation organizations is crucial. 
-            By understanding the threats faced by Sri Lanka Leopards and supporting conservation efforts, 
-            we can ensure these magnificent creatures continue to grace the island's landscapes for generations to come.
-        </p>
+        <h1 x-text="pageData.leopard.desc.title"></h1>
+        <p x-text="pageData.leopard.desc.description"></p>
     </div>
 
     <section class="conserve">
         <div class="opcard">
-            <h4>Wildlife Conversation and Research Unit</h4>
-            <p> This organization spearheads leopard research, conservation, and education initiatives in Sri Lanka. 
-                You can find more information and ways to support them at
-            </p>
-            <a href="https://www.wildcru.org/research/sri-lankan-leopards">www.wildcru.org</a>
+            <h4 x-text="pageData.leopard.conserve.box1.name"></h4>
+            <p x-text="pageData.leopard.conserve.box1.description"></p>
+            <a :href="pageData.leopard.conserve.box1.link">www.wildcru.org</a>
         </div>
         <div class="opcard">
-            <h4>Wildlife Conservation Society</h4>
-            <p> WCS works on various conservation projects, including leopard studies and habitat protection. 
-                You can learn more and contribute at
-            </p>
-            <a href="https://www.slwcs.org/">www.slwcs.org</a>
+            <h4 x-text="pageData.leopard.conserve.box2.name"></h4>
+            <p x-text="pageData.leopard.conserve.box2.description"></p>
+            <a :href="pageData.leopard.conserve.box2.link">www.slwcs.org</a>
         </div>
     </section>    
 
-</main>        
+</main>  
+</div>      
 
 <footer>
     <p>Copyright 2023.</p>

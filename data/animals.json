@@ -1,0 +1,55 @@
+{
+    "intro": {
+        "title": "Animals in Sri Lanka",
+        "description": "Sri Lanka, the island nation adorned with breathtaking landscapes and rich biodiversity, boasts a remarkable collection of endemic animals found nowhere else on Earth. These fascinating creatures, a testament to the unique evolutionary history of the island, deserve a spotlight in any exploration of Sri Lankan wildlife."
+    },
+    "endemic": {
+        "card1": {
+            "name": "Sri Lankan Leopard",
+            "description": "The elusive apex predator, known for its striking rosette patterns and stealthy grace, roams the verdant jungles and dry forests. Witness its majesty at Yala National Park or Wilpattu National Park, renowned for leopard sightings.",
+            "image": "./animals/images/leopard.jpg"
+        },
+        "card2": {
+            "name": "Purple-faced Langur",
+            "description": "These arboreal acrobats, with their captivating purple faces and soulful eyes, swing through the lush canopies. Keep an eye out for their playful antics in the misty highlands and dry zone forests.",
+            "image": "./animals/images/langur.jpg"
+        },
+        "card3": {
+            "name": "Sri Lanka Blue Magpie",
+            "description": "This vibrant avian gem, adorned with its signature blue plumage and long tail, adds a splash of color to the island's forests. Look for their mesmerizing calls and flashes of azure as they flit through the branches.",
+            "image": "./animals/images/magpie.jpeg"
+        },
+        "card4": {
+            "name": "Sri Lankan Junglefowl",
+            "description": "The ancestor of all domesticated chickens, this wild beauty struts through the undergrowth with its fiery plumage and distinctive crow. Their presence evokes a sense of the wild roots of our familiar farmyard fowl.",
+            "image": "./animals/images/fowl.jpg"
+        },
+        "card5": {
+            "name": "Serendib Scops Owl",
+            "description": "This tiny nocturnal hunter, named after Sri Lanka's ancient name, camouflages itself amidst the foliage, with its large eyes peering out vigilantly. Listen for its haunting calls in the stillness of the night.",
+            "image": "./animals/images/owl.jpg"
+        },
+        "card6": {
+            "name": "Sri Lankan Star Tortoise",
+            "description": "These radiantly marked reptiles, with star-shaped patterns on their shells, are living fossils, remnants of a bygone era. Their slow, patient existence adds a sense of ancient wisdom to the island's landscapes.",
+            "image": "./animals/images/tort.jpeg"
+        }
+    },
+    "beyond": {
+        "intro": {
+            "title": "Beyond Endemism",
+            "description": "While endemic species add a captivating layer to Sri Lanka's wildlife tapestry, the island hosts a multitude of other creatures. From majestic Asian elephants in Udawalawe National Park to playful dolphins frolicking off the coast, the diversity is astonishing. Come, discover the treasures of Sri Lankan wildlife, where breathtaking beauty meets fascinating creatures. Experience the wonder of endemic species and immerse yourself in the unparalleled diversity of this island paradise."
+        },
+        "explore": {
+            "title": "Explore Further",
+            "link1": {
+                "name": "Yala National Park",
+                "url": "./yala.html"
+            },
+            "link2": {
+                "name": "Wilpattu National Park",
+                "url": "./wilpattu.html"
+            }
+        }
+    }
+}

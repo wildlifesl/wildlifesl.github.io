@@ -1,0 +1,112 @@
+{
+    "hero": {
+        "title": "Department of Wildlife Conservation",
+        "image": "./department/images/deplogo.png"
+    },
+    "introduction": {
+      "heading": "Protecting Sri Lanka's precious natural heritage",
+      "description": "The Department of Wildlife Conservation (DWC) is the guardian of Sri Lanka's breathtaking biodiversity. Established in 1938, we dedicate ourselves to preserving the island's natural treasures through:",
+      "list": {
+          "item1": "Safeguarding diverse ecosystems: Our network of protected areas, encompassing over 12% of Sri Lanka, provides vital havens for countless species, from majestic elephants to vibrant birds and unique reptiles.",
+          "item2": "Ensuring ecological balance: We enforce wildlife laws, preventing poaching and habitat destruction, and actively manage protected areas to ensure the ecosystem's health.",
+          "item3": "Empowering communities: We collaborate with local communities and organizations, promoting sustainable development and fostering a sense of shared responsibility for wildlife conservation.",
+          "item4": "Inspiring future generations: Through education programs and public awareness campaigns, we cultivate a deeper appreciation for Sri Lanka's natural wonders and inspire action for their protection."
+        }
+    },
+    "protectedareas": {
+      "title": "Explore Sri Lanka's Diverse Tapestry",
+      "subtitle": "Dive into the wonders of Sri Lanka's wildlife landscape through our network of over 130 protected areas, each offering a unique experience",
+      "cat1": {
+          "name": "Dry Forests & Grasslands",
+          "areas": {
+            "box1": {
+              "name": "Hurulu Forest Reserve",
+              "image": "./department/images/hurulu.jpg"
+            },
+            "box2": {
+              "name": "Maduruoya National Park",
+              "image": "./department/images/maduru.jpg"
+            },
+            "box3": {
+              "name": "Galoya National Park",
+              "image": "./department/images/galoya.jpg"
+            },
+            "box4": {
+              "name": "Udawalawa National Park",
+              "image": "./department/images/udawalawa.jpg"
+            },
+            "box5": {
+              "name": "Horowpathana National Park",
+              "image": "./department/images/horowpathana.jpg"
+            },
+            "box6": {
+              "name": "Flood Plains National Park",
+              "image": "./department/images/flood.jpg"
+            }
+          }
+        },
+        "cat2": {
+          "name": "Rainforests & Mountains",
+          "areas": {
+            "box1": {
+              "name": "Sinharaja Forest Reserve",
+              "image": "./department/images/sinha.jpg"
+            },
+            "box2": {
+              "name": "Knuckles Mountain Range",
+              "image": "./department/images/knuckles.jpg"
+            },
+            "box3": {
+              "name": "Haggala Strict Natural Reserve",
+              "image": "./department/images/hakgala.jpg"
+            },
+            "box4": {
+              "name": "Ritigala Strict Natural Reserve",
+              "image": "./department/images/ritigala.jpg"
+            },
+            "box5": {
+              "name": "Horton Plains National Park",
+              "image": "./department/images/horton.jpg"
+            },
+            "box6": {
+              "name": "Kanneliya-Dediyagala-Nakiyadeniya Biosphere Reserve",
+              "image": "./department/images/kdn.jpg"
+            }
+          }
+        },
+        "cat3": {
+          "name": "Wetlands & Coastal Habitats",
+          "areas": {
+            "box1": {
+              "name": "Bundala National Park",
+              "image": "./department/images/bundala.jpg"
+            },
+            "box2": {
+              "name": "Anavilundawa Sanctuary",
+              "image": "./department/images/anavil.jpg"
+            },
+            "box3": {
+              "name": "Hikkaduwa National Park",
+              "image": "./department/images/hikkaduwa.jpg"
+            },
+            "box4": {
+              "name": "Bambarabotuwa Forest Reserve",
+              "image": "./department/images/bambara.jpg"
+            },
+            "box5": {
+              "name": "Kumana National Park",
+              "image": "./department/images/kumana.jpg"
+            },
+            "box6": {
+              "name": "Muthurajawela Wetland",
+              "image": "./department/images/muthu.jpg"
+            }
+          }
+        }
+    },
+    "contact": {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507001.0556457182!2d79.35950296562501!3d6.897092700000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705549706461!5m2!1sen!2slk",
+        "name": "Department of Wildlife Conservation",
+        "address": "No. 811/A Jayanthipura Rd, Battaramulla 10120"
+    }
+  }

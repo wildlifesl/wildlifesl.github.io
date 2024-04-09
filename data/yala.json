@@ -1,0 +1,52 @@
+{
+    "intro": {
+      "title": "Yala National Park",
+      "subtitle": "Where Leopards Reign and Nature Thrives",
+      "description": "Immerse yourself in the untamed beauty of Yala National Park, Sri Lanka's premier wildlife sanctuary and a haven for the majestic Sri Lankan Leopard. This expansive wilderness, stretching across dry plains, lush forests, and shimmering lagoons, offers an unforgettable safari adventure teeming with diverse flora and fauna."
+    },
+    "about": {
+      "title": "About",
+      "image": "./yala/images/leo.webp",
+      "cards": {
+        "box1": {
+          "title": "History and Significance",
+          "description": "Yala's rich history dates back centuries, with its diverse ecosystems and abundant wildlife attracting both royalty and commoners. Today, it's a protected area vital for conserving Sri Lanka's unique biodiversity."
+        },
+        "box2": {
+          "title": "Landscapes and Ecosystems",
+          "description": "From the golden grasslands teeming with elephants and deer to the verdant forests echoing with the calls of langurs and the serene lagoons teeming with crocodiles, Yala offers a kaleidoscope of habitats."
+        },
+        "box3": {
+          "title": "Wildlife Encounters",
+          "description": "Prepare to be awestruck by the sheer diversity of Yala's inhabitants. Witness the majestic Sri Lankan Leopard stalking through the savannah, elephants trumpeting in family groups, and countless bird species adorning the skies."
+        }
+      }
+    },
+    "encounters": {
+      "title": "Wildlife Encounters",
+      "image": "./yala/images/pea.jpg",
+      "cards": {
+        "box1": {
+          "title": "Predators on the Prowl",
+          "description": "Seek the elusive Sri Lankan Leopard, observe the graceful movements of sloth bears, and witness the nocturnal antics of fishing cats."
+        },
+        "box2": {
+          "title": "Giants of the Savannah",
+          "description": "Encounter herds of magnificent Asian elephants, marvel at the power of water buffaloes, and spot the graceful gait of spotted deer."
+        },
+        "box3": {
+          "title": "Avian Symphony",
+          "description": "From the vibrant plumage of peacocks to the melodic calls of hornbills and the soaring eagles above, Yala's skies are alive with avian wonders."
+        }
+      }
+    },
+    "plan": {
+      "title": "Plan Your Visit:",
+      "list": {
+        "list1": "Best Time to Visit: Yala offers distinct experiences throughout the year. The dry season (December-May) provides optimal wildlife viewing, while the monsoon months (June-November) reveal lush landscapes and abundant birdlife.",
+        "list2": "Safaris and Tours: Choose from jeep safaris, guided walks, or even elephant safaris to explore Yala's diverse terrain and encounter its magnificent wildlife.",
+        "list3": "Accommodation and Amenities: Yala offers a range of accommodation options, from luxurious lodges to comfortable campsites, catering to every budget and preference."
+      }
+    }
+  }
+  

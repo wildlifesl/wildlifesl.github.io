@@ -1,0 +1,65 @@
+{
+    "about": {
+      "intro": {
+        "title": "The Magnificent Sri Lanka Leopard",
+        "subtitle": "An Apex Jewel Facing Challenges",
+        "description": "The Sri Lanka Leopard, with its breathtaking rosette patterns and elusive grace, reigns as the island's apex predator. These magnificent big cats roam diverse landscapes, from lush rainforests to dry thorn scrublands. However, this iconic species faces several threats, requiring dedicated conservation efforts to ensure its future."
+      },
+      "find": {
+        "title": "Finding the Sri Lanka Leopard",
+        "description": "These elusive creatures are often difficult to spot in the wild, but some locations offer higher chances of observing these majestic animals"
+      },
+      "places": {
+        "box1": {
+          "name": "Yala National Park",
+          "description": "Considered the leopard capital of Sri Lanka, Yala boasts the highest density of these big cats. Safaris through its diverse landscapes offer thrilling encounters with leopards, elephants, and a multitude of other animals.",
+          "link": "./yala.html"
+        },
+        "box2": {
+          "name": "Sinharaja Forest Reserve",
+          "description": "This verdant rainforest provides a different perspective on leopard habitats. Here, leopards navigate the dense canopy and hunt amongst the rich biodiversity of the rainforest.",
+          "link": "./sinharaja.html"
+        },
+        "box3": {
+          "name": "Wilpattu National Park",
+          "description": "This dry-zone park provides another excellent opportunity to track leopards. Its vast plains and scattered rocky outcrops create prime hunting grounds for these opportunistic predators.",
+          "link": "./wilpattu.html"
+        }
+      }
+    },
+    "threats": {
+      "title": "Threats that Sri Lanka Leopard face",
+      "desc": {
+        "box1": {
+          "name": "Habitat Loss and Fragmentation",
+          "list1": "Threat: Encroachment on leopard habitats for agriculture, infrastructure development, and human settlements leads to reduced prey availability and fragmented populations.",
+          "list2": "Consequences: This can limit breeding opportunities, increase human-animal conflict, and decrease overall leopard numbers." ,
+          "list3": "Mechanisms: Protected areas like national parks and reserves play a crucial role in safeguarding leopard habitats. Additionally, reforestation efforts and wildlife corridors can help connect fragmented populations.",
+          "image": "./leopard/images/deforest.jpg"
+        },
+        "box2": {
+          "name": "Human-Leopard Conflict",
+          "list1": "Threat: Instances of leopards preying on livestock or entering villages due to habitat loss can lead to retaliatory measures like poisoning or trapping.",
+          "list2": "Consequences: This can cause unnecessary deaths of leopards and damage their populations.",
+          "list3": "Mechanisms: Educational programs for communities living near leopard habitats can promote coexistence and reduce conflict. Additionally, effective livestock management practices can minimize interactions between leopards and humans.",
+          "image":"./leopard/images/conflict.jpg"
+        }
+      }
+    },
+    "desc": {
+      "title": "Supporting Leopard Conservation",
+      "description": "To ensure the future of these magnificent creatures, supporting dedicated conservation organizations is crucial. By understanding the threats faced by Sri Lanka Leopards and supporting conservation efforts, we can ensure these magnificent creatures continue to grace the island's landscapes for generations to come."
+    },
+    "conserve": {
+        "box1": {
+          "name": "Wildlife Conversation and Research Unit",
+          "description": "This organization spearheads leopard research, conservation, and education initiatives in Sri Lanka. You can find more information and ways to support them at",
+          "link": "https://www.wildcru.org/research/sri-lankan-leopards"
+        },
+        "box2": {
+          "name": "Wildlife Conservation Society",
+          "description": "WCS works on various conservation projects, including leopard studies and habitat protection. You can learn more and contribute at",
+          "link": "https://www.slwcs.org/"
+        }
+      }
+    }

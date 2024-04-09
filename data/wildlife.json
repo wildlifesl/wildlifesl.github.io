@@ -1,0 +1,80 @@
+{
+    "hero": {
+        "title": "Sri Lanka's Wildlife Tapestry",
+        "desc": "Sri Lanka, the 'Pearl of Indian Ocean' is a haven for diverse wildlife, offering encounters with majestic creatures across its verdant landscapes.  While Yala and Wilpattu capture the hearts of many, the island nation boasts a treasure trove of other wildlife locations waiting to be discovered"
+    },
+    "places":{ 
+        "title": "Unleashing the Wilderness",
+        "box1": {
+            "title": "Sinharaja Rainforest",
+            "description": "Immerse yourself in the emerald embrace of Sinharaja, a UNESCO World Heritage Site teeming with life.  Witness the acrobatic antics of toque macaques, the elusive beauty of purple-faced langurs,  and the vibrant plumage of hornbills flitting through the ancient canopy",
+            "image1": "./wildlife/images/sinha1.jpg",
+            "image2": "./wildlife/images/sinha2.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63434.767272736986!2d80.34955005820312!3d6.436035100000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3ddafc78402eb%3A0x2e21850db2f76db6!2sSinharaja%20Rain%20forest%2C%20Waddagala%2C%20Kalawana!5e0!3m2!1sen!2slk!4v1705858128730!5m2!1sen!2slk"
+        },
+        "box2": {
+            "title": "Minneriya National Park",
+            "description": "Witness the awe-inspiring 'Gathering of Elephants' during the dry season, where hundreds of these gentle giants converge  around the Minneriya tank, a sight etched in the memories of every visitor",
+            "image1": "./wildlife/images/minne1.jpg",
+            "image2": "./wildlife/images/minne2.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31606.20583014093!2d80.82629425829283!3d8.022046538275077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb6009a20be05d%3A0xa4d046f2f06b05f5!2sMinneriya%20National%20Park!5e0!3m2!1sen!2slk!4v1705859196768!5m2!1sen!2slk"
+        },
+        "box3": {
+            "title": "Horton Plains National Park",
+            "description": "Embark on a misty trek through the cloud forests of Horton Plains, home to the endemic Sri Lankan leopard and the breathtaking  Baker's Falls. Hike amidst the rolling hills carpeted in purple rhododendrons and discover the island's unique montane ecosystem",
+            "image1": "./wildlife/images/horton1.jpg",
+            "image2": "./wildlife/images/horton2.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.867692582897!2d80.80809581066005!3d6.8042499910903205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705859273286!5m2!1sen!2slk"
+        },
+        "box4": {
+            "title": "Bundala National Park",
+            "description": "Explore the diverse landscapes of Bundala, where lagoons teem with crocodiles and flamingos, grasslands offer sanctuary to  elephants and deer, and dry thorn forests provide refuge for the elusive sloth bear",
+            "image1": "./wildlife/images/bundala1.jpg",
+            "image2": "./wildlife/images/bundala2.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7933.013348405566!2d81.19370249450029!3d6.196682225163966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69842ecb214eb%3A0x145a2d402f36beb0!2sBundala%20National%20Park!5e0!3m2!1sen!2slk!4v1705859383955!5m2!1sen!2slk"
+        },
+        "box5": {
+            "title": "Kumana National Park",
+            "description": "Discover the serene beauty of Kumana, a sanctuary for migratory birds and home to the endangered Asian elephant.  Glide through the lagoon on a boat safari, marveling at the colorful tapestry of birdlife and the majestic presence of these gentle giants",
+            "image1": "./wildlife/images/kumana1.jpg",
+            "image2": "./wildlife/images/kumana2.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126811.49482430212!2d81.65618108362227!3d6.664363369920282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5c8b55f7156a3%3A0xce605bccbb80201a!2sKumana%20National%20Park!5e0!3m2!1sen!2slk!4v1705859420156!5m2!1sen!2slk"
+        }
+    },
+    "table": {
+        "title": "Endamic Animals of Sri Lanka",
+        "desc": "This table is a glimpse into the diverse wildlife wonders Sri Lanka offers. Each location and species holds a unique story, waiting to be discovered and appreciated. So, pack your sense of adventure, grab your binoculars, and embark on a journey to experience the magic of Sri Lankan wildlife! ",
+        "content": {
+            "head": {
+                "column1": "Animal",
+                "column2": "Interesting Facts",
+                "column3": "Image"
+            },
+            "row1": {
+                "animal": "Sri Lankan Leopard",
+                "facts": "These elusive big cats boast the highest density of rosettes in the world, making their unique fur patterns like fingerprints. Despite their fearsome reputation, they primarily hunt small prey and play a crucial role in maintaining ecosystem balance",
+                "image": "./wildlife/images/leopard.jpg"
+            },
+            "row2": {
+                "animal": "Sri Lankan Elephant",
+                "facts": "While known for their impressive size, elephants hold the record for the longest gestation period amongst mammals, carrying their calves for an average of 22 months! Interestingly, their trunks have over 40,000 muscles, allowing them to perform delicate tasks like picking up a single blade of grass",
+                "image": "./wildlife/images/elephant.jpg"
+            },
+            "row3": {
+                "animal": "Toque Macaque",
+                "facts": "These cheeky primates have a secret weapon - their impressive jumping skills! They can leap up to 15 feet between branches, making them acrobatic masters of the rainforest canopy",
+                "image": "./wildlife/images/macaque.jpg"
+            },
+            "row4": {
+                "animal": "Purple-faced Langur",
+                "facts": "While their vibrant facial markings steal the show, purple-faced langurs have another curious trick - their multi-chambered stomach allows them to digest tough leaves, making them essential players in the forest's nutrient cycle",
+                "image": "./wildlife/images/langur.jpg"
+            },
+            "row5": {
+                "animal": "Sri Lankan Sloth Bear",
+                "facts": "Don't let their name fool you! These surprisingly playful bears use their long claws to dig for termites, their favorite snack. Despite their intimidating claws and teeth, they primarily feed on insects and are actually quite shy creatures",
+                "image": "./wildlife/images/bear.jpg"
+            }
+        }
+    }
+}
